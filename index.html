@@ -24,7 +24,8 @@ img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  width: 250px;
+  height: auto;
 }
 
 img:hover {
@@ -99,6 +100,28 @@ li a:hover {
 div {
   column-gap: 10px;
 }
+results > * {
+position: relative;
+z-index: 2;
+}
+container:nth-of-type(){
+background-image: url(https://rhondarivas.github.io/images/macbookcode.jpg);
+background-position: center;
+}
+results:after {
+content: "";
+position: absolute;
+left: 0; top:0;
+width:100%; height:100%;
+background: rgba(63.136.191);
+z-index: 1;
+}
+.rightDiv
+	{
+		height: 400px;
+		width: 48%;
+		float: right;
+	}
 </style>
 <ul>
   <li><a href="#home">Home</a></li>
@@ -109,52 +132,60 @@ div {
 <p></p>
 <div class="container-fluid">
   <h1>Rhonda Rivas</h1>
+  <h6>Web Developer</h6>
 <div class="row">
   <div class="rhonda">
-    <img src="https://rhondarivas.github.io/images/rhonda.jpg" alt="Rhonda" style="width:60%">
+    <img src="https://rhondarivas.github.io/images/rhonda.jpg" alt="Rhonda">
   </div>
+<div class="developer">
 
-  <div class="about">
-    <div class="col-md-6 col-md-6" style="background-color:rgb(175, 74, 170);">
+</div>
+
+    <div class="col-md-8 col-md-8" style="background-color:rgb(175, 74, 170);">
+      <h2>About Me</h2>
       I have been away from web development for sometime now. I first started back in 1997 when HTML was the "thing".
       I started a fan based website for Titanic and met many life-long friends as a result. Life happened and temporary jobs turned into permanent jobs.
       My focus changed. I have now been able to return to design and photography . Thanks in part to myself for making the leap and partly due to my employer,
       Chipotle Mexican Grill and their tuition benefits. I have a love of design and creativity along side photography.
       I am enrolled in Bellevue University Web Design and have worked on a few things within the class.
     </div>
-    <div class="col-md-6 col-md-6" style="background-color: rgb(175, 74, 170);">
-    phere? ventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-    </div>
   </div>
 </div>
 
 <div class="portfolio">
 <h2>My Portfolio</h2>
-<div class="row">
+<div class="links1">
+  <div class="slider">
   <div class="column">
   <a href="https://rhondarivas.github.io/biosite">
     <img src="https://rhondarivas.github.io/images/camera1.jpg" alt="Bio Site" style="width:75%">
-  </a></div>
-    <div class="row">
-      <div class="column">
-    <a href="https://rhondarivas.github.io/biosite">
+  </a></div></div></div>
+  <div class="links2">
+    <div class="slider">
+    <div class="column">
+    <a href="https://rhondarivas.github.io/biosite/test.html">
       <img src="https://rhondarivas.github.io/images/camera2.jpg" alt="Bio Site" style="width:75%">
-    </a></div>
-      <div class="row">
-        <div class="column">
-      <a href="https://rhondarivas.github.io/biosite">
+    </a></div></div></div>
+    <div class="links3">
+      <div class="link">
+      <div class="slider">
+      <div class="column">
+      <a href="http://github.com/RhondaRivas/web-231/">
         <img src="https://rhondarivas.github.io/images/camera3.jpg" alt="Bio Site" style="width:75%">
-      </a></div>
-        <div class="row">
-          <div class="column">
-        <a href="https://rhondarivas.github.io/biosite">
+      </a></div></div></div></div></div>
+      <div class="links4">
+        <div class="link">
+        <div class="slider">
+        <div class="column">
+        <a href="hhttp://github.com/RhondaRivas/web-330/web-330.2.4.png">
           <img src="https://rhondarivas.github.io/images/camera4.jpg" alt="Bio Site" style="width:75%">
-        </a></div>
-          <div class="row">
-            <div class="column">
-          <a href="https://rhondarivas.github.io/biosite">
+        </a></div></div></div></div>
+        <div class="links5">
+          <div class="slider">
+          <div class="column">>
+          <a href="http://github.com/RhondaRivas/web-330/">
             <img src="https://rhondarivas.github.io/images/camera5.jpg" alt="Bio Site" style="width:75%">
-          </a></div>
+          </a></div></div></div>
 
 
         </p>
