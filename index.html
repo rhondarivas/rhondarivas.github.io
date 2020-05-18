@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto', sans-serif, verdana;
   position: relative;
   font-weight:400;
-  background: #d37dd6;
+  background-image: url('https://rhondarivas.github.io/images/summer.jpg');
   color: #000000;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -89,39 +89,10 @@ li a:hover {
   clear: both;
   display: table;
 }
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}
-
 div {
-  column-gap: 10px;
+  column-gap: 40px;
 }
-results > * {
-position: relative;
-z-index: 2;
-}
-container:nth-of-type(){
-background-image: url(https://rhondarivas.github.io/images/macbookcode.jpg);
-background-position: center;
-}
-results:after {
-content: "";
-position: absolute;
-left: 0; top:0;
-width:100%; height:100%;
-background: rgba(63.136.191);
-z-index: 1;
-}
-.rightDiv
-	{
-		height: 400px;
-		width: 48%;
-		float: right;
-	}
+
 </style>
 <ul>
   <li><a href="#home">Home</a></li>
@@ -130,10 +101,11 @@ z-index: 1;
   <li><a href="#rhonda">About</a></li>
 </ul>
 <p></p>
-<div class="container-fluid">
+<div class="container">
   <h1>Rhonda Rivas</h1>
   <h6>Web Developer</h6>
 <div class="row">
+
   <div class="rhonda">
     <img src="https://rhondarivas.github.io/images/rhonda.jpg" alt="Rhonda">
   </div>
@@ -147,52 +119,30 @@ z-index: 1;
       I started a fan based website for Titanic and met many life-long friends as a result. Life happened and temporary jobs turned into permanent jobs.
       My focus changed. I have now been able to return to design and photography . Thanks in part to myself for making the leap and partly due to my employer,
       Chipotle Mexican Grill and their tuition benefits. I have a love of design and creativity along side photography.
-      I am enrolled in Bellevue University Web Design and have worked on a few things within the class.
-    </div>
-  </div>
-</div>
-
-<div class="portfolio">
-<h2>My Portfolio</h2>
-<div class="links1">
-  <div class="slider">
-  <div class="column">
-  <a href="https://rhondarivas.github.io/biosite">
-    <img src="https://rhondarivas.github.io/images/camera1.jpg" alt="Bio Site" style="width:75%">
-  </a></div></div></div>
-  <div class="links2">
-    <div class="slider">
-    <div class="column">
-    <a href="https://rhondarivas.github.io/biosite/test.html">
-      <img src="https://rhondarivas.github.io/images/camera2.jpg" alt="Bio Site" style="width:75%">
-    </a></div></div></div>
-    <div class="links3">
-      <div class="link">
-      <div class="slider">
-      <div class="column">
-      <a href="http://github.com/RhondaRivas/web-231/">
-        <img src="https://rhondarivas.github.io/images/camera3.jpg" alt="Bio Site" style="width:75%">
-      </a></div></div></div></div></div>
-      <div class="links4">
-        <div class="link">
-        <div class="slider">
-        <div class="column">
-        <a href="hhttp://github.com/RhondaRivas/web-330/web-330.2.4.png">
-          <img src="https://rhondarivas.github.io/images/camera4.jpg" alt="Bio Site" style="width:75%">
-        </a></div></div></div></div>
-        <div class="links5">
-          <div class="slider">
-          <div class="column">>
-          <a href="http://github.com/RhondaRivas/web-330/">
-            <img src="https://rhondarivas.github.io/images/camera5.jpg" alt="Bio Site" style="width:75%">
-          </a></div></div></div>
-
-
-        </p>
+      I am enrolled in Bellevue University Web Design and have worked on a few things within the class.<p>
+        <h2>My Portfolio</h2>
       </p>
-    </p>
-  </p>
-    </div>
+      <div class="column">
+        <div class="row">
+      <a href="https://rhondarivas.github.io/biosite">
+        <img src="https://rhondarivas.github.io/images/camera1.jpg">
+      </a><p>
+        <a href="https://rhondarivas.github.io/biosite/test.html">
+          <img src="https://rhondarivas.github.io/images/camera2.jpg">
+        </a></div></div>
+      </p><a href="http://github.com/RhondaRivas/web-231/">
+        <img src="https://rhondarivas.github.io/images/camera3.jpg">
+      </a>
+      <p>
+        <a href="hhttp://github.com/RhondaRivas/web-330/web-330.2.4.png">
+          <img src="https://rhondarivas.github.io/images/camera4.jpg">
+        </a>
+      </p><div class="column">
+        <div class="row">
+          <a href="http://github.com/RhondaRivas/web-330/">
+            <img src="https://rhondarivas.github.io/images/camera5.jpg">
+          </a></div></div>
+
 
 <br>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
