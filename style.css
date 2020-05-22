@@ -1,0 +1,120 @@
+body {
+  font-family: 'Leckerli One', cursive;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  font-weight:400;
+  background-image: url('https://rhondarivas.github.io/images/summer.jpg');
+  color: #000000;
+
+}
+h1 {
+  font-family: 'Leckerli One', cursive;
+  color: #ffffff;
+}
+
+h2{
+  font-family: 'Leckerli One', cursive;
+  color: #000000;
+}
+
+h3,h4,h5,h6,h7{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+
+}
+
+.portfolio {
+  align-content: center;
+  align-items: center;
+
+}
+
+img {
+  border: 0px solid mediumturquoise;
+  border-radius: 1px;
+  padding: 2px;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: wrap;
+  height: 150px;
+  color: mediumturquoise;
+}
+
+.userPic {
+  height: 100%;
+  width: auto;
+}
+
+.userDetails {
+  background-color: rgb(10, 42, 121);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0px 15px;
+  flex-grow: 2;
+}
+
+.userDetails h1 {
+margin: 0;
+font-size: 28px;
+}
+.userDetails span {
+  margin: 0;
+  display: inline-block;
+}
+
+
+.home {
+  background-color: mediumturquoise;
+}
+
+.home,
+.portfolio,
+.contact
+{
+color: mediumturquoise;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+}
+
+.home ion-icon,
+.portfolio ion-icon,
+.contact ion-icon
+ {
+  font-size: 30px;
+
+}
+.aboutMe {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.portfolio {
+  background-color: mediumseagreen;
+}
+
+.contact {
+  background-color: mediumturquoise;
+}
+
+.container {
+  text-align: left;
+  display: inline-block;
+}
+
+.about {
+  text-align: justify;
+}
