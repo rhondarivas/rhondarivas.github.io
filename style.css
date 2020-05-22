@@ -17,27 +17,30 @@ h2{
   color: #000000;
 }
 
-h3,h4,h5,h6,h7{
+h3,h4,h5{
   font-family: 'Roboto', sans-serif;
+  align-content: flex-start;
+  text-align: justify;
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1300px;
   margin: 0 auto;
 
 }
 
 .portfolio {
-  align-content: center;
-  align-items: center;
+  align-content: left;
+  align-items: right;
+  text-align: center;
 
 }
 
 img {
-  border: 0px solid mediumturquoise;
-  border-radius: 1px;
-  padding: 2px;
-  width: 300px;
+  border: 0px mediumturquoise;
+  border-radius: 0px;
+  padding: 4px;
+  width: 250px;
   height: auto;
   margin: 0 auto;
 }
@@ -45,10 +48,10 @@ nav {
   display: flex;
   justify-content: flex-start;
   flex-flow: wrap;
-  height: 150px;
+  height: 180px;
   color: mediumturquoise;
-}
 
+}
 .userPic {
   height: 100%;
   width: auto;
@@ -66,7 +69,7 @@ nav {
 
 .userDetails h1 {
 margin: 0;
-font-size: 28px;
+font-size: 36px;
 }
 .userDetails span {
   margin: 0;
@@ -74,11 +77,11 @@ font-size: 28px;
 }
 
 
-.home {
+.about {
   background-color: mediumturquoise;
 }
 
-.home,
+.about,
 .portfolio,
 .contact
 {
@@ -89,21 +92,22 @@ align-items: center;
 flex-grow: 1;
 }
 
-.home ion-icon,
+.about ion-icon,
 .portfolio ion-icon,
 .contact ion-icon
  {
-  font-size: 30px;
+  font-size: 25px;
 
 }
 .aboutMe {
-  justify-content: center;
-  align-items: center;
-  flex-grow: 2;
+ text-align: right;
+ text-indent: inherit;
 }
 
 .portfolio {
   background-color: mediumseagreen;
+  align-content: right;
+  text-align: center;
 }
 
 .contact {
@@ -112,9 +116,9 @@ flex-grow: 1;
 
 .container {
   text-align: left;
-  display: inline-block;
+  font-display: block;
+  padding: 15px;
+  text-indent: 0em;
 }
 
-.about {
-  text-align: justify;
-}
+
