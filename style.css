@@ -120,7 +120,14 @@ flex-grow: 1;
   padding: 15px;
   text-indent: 0em;
 }
+p.ex1 {
+  padding-left: 50px;
+}
 
 footer {
  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
 }
