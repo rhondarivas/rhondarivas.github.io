@@ -30,31 +30,34 @@ h3,h4,h5{
 }
 
 .portfolio {
-  align-content: left;
+  align-content: right;
   align-items: right;
-  text-align: center;
+
 
 }
 
 img {
   border: 0px mediumturquoise;
   border-radius: 0px;
-  padding: 4px;
-  width: 250px;
+  padding: 15px;
+  width: 150px;
   height: auto;
   margin: 0 auto;
 }
+
+
 nav {
   display: flex;
   justify-content: flex-start;
   flex-flow: wrap;
-  height: 180px;
+  height: 200px;
   color: mediumturquoise;
 
 }
 .userPic {
-  height: 100%;
+  height: 215px;
   width: auto;
+
 }
 
 .userDetails {
@@ -101,12 +104,12 @@ flex-grow: 1;
 }
 .aboutMe {
  text-align: right;
- text-indent: inherit;
+ text-indent: initial;
 }
 
 .portfolio {
   background-color: mediumseagreen;
-  align-content: right;
+  align-content: center;
   text-align: center;
 }
 
