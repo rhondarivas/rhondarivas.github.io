@@ -40,7 +40,7 @@ img {
   border: 0px mediumturquoise;
   border-radius: 0px;
   padding: 15px;
-  width: 150px;
+  width: 300px;
   height: auto;
   margin: 0 auto;
 }
@@ -50,13 +50,14 @@ nav {
   display: flex;
   justify-content: flex-start;
   flex-flow: wrap;
-  height: 200px;
+  height: 180px;
   color: mediumturquoise;
 
 }
 .userPic {
-  height: 215px;
+  height: 220px;
   width: auto;
+
 
 }
 
@@ -125,6 +126,13 @@ flex-grow: 1;
 }
 p.ex1 {
   padding-left: 50px;
+}
+
+figure{
+  float: left;
+  width: 350px;
+  position: flex;
+  margin: 25px;
 }
 
 footer {
