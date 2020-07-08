@@ -55,7 +55,7 @@ nav {
 
 }
 .userPic {
-  height: 220px;
+  height: 224px;
   width: auto;
 
 }
@@ -95,7 +95,8 @@ flex-grow: 1;
 .about ion-icon,
 .portfolio ion-icon,
 .contact ion-icon,
-.presentations ion-icon
+.presentations ion-icon,
+.diagrams ion-icon
  {
   font-size: 25px;
 
