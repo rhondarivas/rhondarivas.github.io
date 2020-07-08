@@ -50,7 +50,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   flex-flow: wrap;
-  height: 165px;
+  height: 180px;
   color: mediumturquoise;
 
 }
@@ -95,8 +95,7 @@ flex-grow: 1;
 .about ion-icon,
 .portfolio ion-icon,
 .contact ion-icon,
-.presentations ion-icon,
-.diagrams ion-icon
+.presentations ion-icon
  {
   font-size: 25px;
 
