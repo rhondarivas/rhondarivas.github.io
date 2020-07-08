@@ -50,7 +50,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   flex-flow: wrap;
-  height: 180px;
+  height: 165px;
   color: mediumturquoise;
 
 }
@@ -79,15 +79,11 @@ font-size: 36px;
   display: inline-block;
 }
 
-
-.about {
-  background-color: mediumturquoise;
-}
-
 .about,
 .portfolio,
 .contact,
-.presentations
+.presentations,
+.diagrams
 {
 color: mediumturquoise;
 display: flex;
@@ -99,7 +95,8 @@ flex-grow: 1;
 .about ion-icon,
 .portfolio ion-icon,
 .contact ion-icon,
-.presentations ion-icon
+.presentations ion-icon,
+.diagrams ion-icon
  {
   font-size: 25px;
 
@@ -109,9 +106,14 @@ flex-grow: 1;
  text-indent: initial;
 }
 
+.about {
+  background-color: mediumturquoise;
+}
+
 .presmain {
   text-align: center;
 }
+
 
 .portfolio {
   background-color: mediumseagreen;
@@ -128,7 +130,13 @@ flex-grow: 1;
   align-content: center;
   text-align: center;
 }
+.diagrams {
+  background-color: mediumturquoise;
+}
 
+.maind {
+  text-align: center;
+}
 .container {
   text-align: left;
   font-display: block;
@@ -137,6 +145,10 @@ flex-grow: 1;
 }
 p.ex1 {
   padding-left: 50px;
+}
+
+.diagramsmain {
+  text-align: center;
 }
 
 figure{
