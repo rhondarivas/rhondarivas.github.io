@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   position: relative;
   font-weight:400;
-  background-image: url('https://rhondarivas.github.io/images/summer.jpg');
+  background-image: url('/images/summer.jpg');
   color: #000000;
 
 }
@@ -87,7 +87,8 @@ font-size: 36px;
 
 .about,
 .portfolio,
-.contact
+.contact,
+.presentations
 {
 color: mediumturquoise;
 display: flex;
@@ -98,7 +99,8 @@ flex-grow: 1;
 
 .about ion-icon,
 .portfolio ion-icon,
-.contact ion-icon
+.contact ion-icon,
+.presentations ion-icon
  {
   font-size: 25px;
 
@@ -116,6 +118,12 @@ flex-grow: 1;
 
 .contact {
   background-color: mediumturquoise;
+}
+
+.presentations {
+  background-color: mediumseagreen;
+  align-content: center;
+  text-align: center;
 }
 
 .container {
