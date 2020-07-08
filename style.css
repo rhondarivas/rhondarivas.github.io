@@ -87,7 +87,8 @@ font-size: 36px;
 
 .about,
 .portfolio,
-.contact
+.contact,
+.presentations
 {
 color: mediumturquoise;
 display: flex;
@@ -98,7 +99,8 @@ flex-grow: 1;
 
 .about ion-icon,
 .portfolio ion-icon,
-.contact ion-icon
+.contact ion-icon,
+.presentations ion-icon
  {
   font-size: 25px;
 
@@ -115,6 +117,10 @@ flex-grow: 1;
 }
 
 .contact {
+  background-color: mediumturquoise;
+}
+
+.presentations {
   background-color: mediumturquoise;
 }
 
@@ -142,3 +148,4 @@ footer {
 * {
   box-sizing: border-box;
 }
+
