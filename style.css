@@ -110,6 +110,11 @@ flex-grow: 1;
  text-indent: initial;
 }
 
+.presmain {
+  text-align: center;
+  text-indent: initial;
+}
+
 .portfolio {
   background-color: mediumseagreen;
   align-content: center;
