@@ -170,15 +170,10 @@ footer {
 }
 /*Social media link styles*/
 #facebook,#instagram, #twitter{
-  height: 50px;
+  height: 25px;
   float: right;
   padding: 10px;
-  margin-top: 15px;
-}
-
-/*social media positioning right*/
-#pinterest{
-  margin-right: 8%;
+  margin-top: 10px;
 }
 
 /*social media hover glowy*/
