@@ -180,3 +180,23 @@ footer {
 #facebook:hover, #instagram:hover, #twitter:hover{
   box-shadow: 3px 3px 3px darkcyan;
 }
+/*Gallery image/link styling*/
+figure{
+  position: flex;
+  color: black;
+  margin: 25px;
+  display: inline;
+  font-weight: 500;
+  text-align: center;
+}
+
+/*Gallery image/link hover styling*/
+figure:hover{
+  color: rgb(24, 35, 192);
+  text-shadow: 2px 2px 4px black;
+}
+
+/*gallery image shadow/positioning*/
+.gallery{
+  box-shadow: 5px 5px 5px grey;
+}
