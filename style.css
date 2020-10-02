@@ -170,7 +170,7 @@ footer {
 }
 /*Social media link styles*/
 #facebook,#instagram, #twitter{
-  height: 50px;
+  height: 30px;
   float: right;
   padding: 15px;
   margin-top: 15px;
@@ -196,7 +196,3 @@ figure:hover{
   text-shadow: 2px 2px 4px black;
 }
 
-/*gallery image shadow/positioning*/
-.gallery{
-  box-shadow: 5px 5px 5px grey;
-}
